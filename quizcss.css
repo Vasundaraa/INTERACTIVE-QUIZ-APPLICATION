@@ -1,0 +1,73 @@
+body
+{
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #f5f5dc;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.app
+{
+    width: 50%;
+    background: #dcae96;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2, h3
+{
+    color: #333;
+}
+
+#answer-buttons
+{
+    margin-top: 20px;
+}
+
+label
+{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+input[type="button"] 
+{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fffff0;
+    color: black;
+    font-size: auto;
+    font-family: "Comic Sans MS", sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="button"]:hover
+{
+    background-color: #d3d3d3;
+}
+
+#nextbtn
+{
+    background-color: #e9ddcc;
+    color: black;
+    font-size: 16px;
+    font-family: "Comic Sans MS", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none; /* Hidden initially */
+}
+
+#nextbtn:hover
+{
+    background-color: #dcdcdc;
+    color: black;
+}
